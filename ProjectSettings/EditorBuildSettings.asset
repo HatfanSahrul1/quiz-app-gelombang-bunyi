@@ -14,4 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: fc19e5b757253e648ab16710372abce4
+  - enabled: 1
+    path: Assets/Scenes/Content/Evaluasi.unity
+    guid: abbc8f70653eaf649adb718e5de6fe35
+  - enabled: 1
+    path: Assets/Scenes/Content/Indikator.unity
+    guid: dbeb0a965462ec745bb84118e8d5da29
+  - enabled: 1
+    path: Assets/Scenes/Content/InfoUmum.unity
+    guid: fd144050d0893454ea17bb7725befd8b
+  - enabled: 1
+    path: Assets/Scenes/Content/LKPD.unity
+    guid: 170fbb3dc0466b644905c519e3c39ba6
+  - enabled: 1
+    path: Assets/Scenes/Content/Petunjuk.unity
+    guid: 26a7350dfaa598248bf1c2942f551f48
+  - enabled: 1
+    path: Assets/Scenes/Content/Referensi.unity
+    guid: 2aa603dafbded9444bbe24b3b0f012c7
+  - enabled: 1
+    path: Assets/Scenes/Content/Materi.unity
+    guid: b9b3d80a0294da64e87da0909d8dce9e
   m_configObjects: {}
