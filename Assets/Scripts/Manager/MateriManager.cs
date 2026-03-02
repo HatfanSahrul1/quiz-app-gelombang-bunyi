@@ -8,7 +8,6 @@ public class MateriManager : MonoBehaviour
     [SerializeField] SceneMovement moveScene;
     [SerializeField] ObjectContainer objectContainer;
     [SerializeField] VideoPlayer videoPlayer;
-    [SerializeField] GameObject slideVideo;
     int currentId = 0;
     GameObject[] materi;
 
@@ -28,16 +27,6 @@ public class MateriManager : MonoBehaviour
         }
 
         materi[currentId].SetActive(true);
-
-        if(currentId == 2 && slideVideo.activeSelf)
-        {
-            ResetVideo();
-            videoPlayer.Play();
-        }
-        else
-        {
-            videoPlayer.Pause();    
-        }
     }
 
     void ResetVideo()
@@ -46,9 +35,22 @@ public class MateriManager : MonoBehaviour
         videoPlayer.time = 0;
     }
 
+    public void PlayMateriVideo(VideoClip vid)
+    {
+        videoPlayer.clip = vid;
+        ResetVideo();
+        videoPlayer.Play();
+    }
+
+    public void DisplayMateriVideo()
+    {
+        videoPlayer.clip = null;
+        ResetVideo();
+    }
+
     public void NextMateri()
     {
-        if (currentId < 25)
+        if (currentId < materi.Length - 1)
         {
             currentId++;
             ShowMateri();
