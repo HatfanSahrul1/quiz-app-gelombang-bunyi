@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
   m_Name: 4p1
   m_EditorClassIdentifier: 
-  soal: Lorem Ipsum
+  soal: "Seorang penyelam mendengar suara mesin kapal dari kejauhan saat di dalam
+    air laut (B=2,2 \xD7\u301610\u3017^9  N/m^2,\u03C1=1.025 kg/m^3). Jika dibandingkan
+    dengan suara di udara(v=340m/s), hitunglah kecepatan bunyi di air tersebut untuk
+    membuktikan di mana bunyi merambat lebih cepat! "
   a: 
   b: 
   c: 

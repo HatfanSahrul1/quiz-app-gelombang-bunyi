@@ -20,3 +20,5 @@ MonoBehaviour:
   d: 'Frekuensi bunyi akan hilang '
   e: 'Panjang gelombang akan menjadi nol '
   correct: 0
+  penjelasan: "Secara matematis v=\u221A(\u03B3 RT/M)  sehingga kecepatan (v)berbanding
+    lurus dengan akar suhu mutlak (T)."

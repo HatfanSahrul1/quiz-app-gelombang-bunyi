@@ -19,3 +19,5 @@ MonoBehaviour:
   d: Memiliki kecepatan yang tetap di semua medium
   e: Tidak dapat dipantulkan
   correct: 1
+  penjelasan: Bunyi memerlukan medium (padat, cair, atau gas) untuk merambat; getaran
+    molekul mediumlah yang menghantarkan energi bunyi.

@@ -20,3 +20,5 @@ MonoBehaviour:
   d: 'Besi - Air - Udara '
   e: 'Udara - Besi - Air '
   correct: 3
+  penjelasan: Bunyi merambat paling cepat di zat padat (besi), diikuti zat cair (air),
+    dan paling lambat di gas (udara) karena kerapatan partikelnya.
