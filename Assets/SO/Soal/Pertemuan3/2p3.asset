@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
+  m_Name: 2p3
+  m_EditorClassIdentifier: 
+  soal: {fileID: 369206346, guid: d73a2a9d18a9d4c4d97d89d5453dba50, type: 3}
+  a: {fileID: -1345611826, guid: d73a2a9d18a9d4c4d97d89d5453dba50, type: 3}
+  b: {fileID: 667843099, guid: d73a2a9d18a9d4c4d97d89d5453dba50, type: 3}
+  c: {fileID: 1228055709, guid: d73a2a9d18a9d4c4d97d89d5453dba50, type: 3}
+  d: {fileID: 1961052466, guid: d73a2a9d18a9d4c4d97d89d5453dba50, type: 3}
+  e: {fileID: -677887231, guid: d73a2a9d18a9d4c4d97d89d5453dba50, type: 3}
+  correct: 0
+  penjelasan: {fileID: 21300000, guid: 42c61669e6f289e4ebceabf8e758995e, type: 3}

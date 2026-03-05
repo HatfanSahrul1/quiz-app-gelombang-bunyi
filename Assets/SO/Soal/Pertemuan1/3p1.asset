@@ -12,13 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
   m_Name: 3p1
   m_EditorClassIdentifier: 
-  soal: '3. Cepat rambat bunyi di udara sangat dipengaruhi oleh suhu. Jika suhu udara
-    meningkat, maka... '
-  a: Cepat rambat bunyi akan meningkat
-  b: 'Cepat rambat bunyi akan menurun '
-  c: 'Cepat rambat bunyi tetap konstan '
-  d: 'Frekuensi bunyi akan hilang '
-  e: 'Panjang gelombang akan menjadi nol '
+  soal: {fileID: 1013847128, guid: 02ea6e8742d5aa64aad82218d77d11b0, type: 3}
+  a: {fileID: 812501401, guid: 02ea6e8742d5aa64aad82218d77d11b0, type: 3}
+  b: {fileID: 1545747932, guid: 02ea6e8742d5aa64aad82218d77d11b0, type: 3}
+  c: {fileID: -445305088, guid: 02ea6e8742d5aa64aad82218d77d11b0, type: 3}
+  d: {fileID: 393662752, guid: 02ea6e8742d5aa64aad82218d77d11b0, type: 3}
+  e: {fileID: -2005274740, guid: 02ea6e8742d5aa64aad82218d77d11b0, type: 3}
   correct: 0
-  penjelasan: Secara matematis v=\u221A(\u03B3 RT/M) sehingga kecepatan (v) berbanding
-    lurus dengan akar suhu mutlak (T).
+  penjelasan: {fileID: 21300000, guid: ec05119f72d587f4ca3c6d164346cfcc, type: 3}

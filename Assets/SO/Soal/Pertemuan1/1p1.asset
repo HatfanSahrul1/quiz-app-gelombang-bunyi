@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
   m_Name: 1p1
   m_EditorClassIdentifier: 
-  soal: 1. Bunyi termasuk dalam kategori gelombang mekanik karena...
-  a: 'Dapat merambat di ruang hampa '
-  b: Memerlukan medium untuk merambat
-  c: Merupakan gelombang transversal
-  d: Memiliki kecepatan yang tetap di semua medium
-  e: Tidak dapat dipantulkan
+  soal: {fileID: 905708492, guid: 95e49a7b5d1025a4d9a604deab54892d, type: 3}
+  a: {fileID: 597608693, guid: 95e49a7b5d1025a4d9a604deab54892d, type: 3}
+  b: {fileID: -1229483274, guid: 95e49a7b5d1025a4d9a604deab54892d, type: 3}
+  c: {fileID: 1366108087, guid: 95e49a7b5d1025a4d9a604deab54892d, type: 3}
+  d: {fileID: 659126944, guid: 95e49a7b5d1025a4d9a604deab54892d, type: 3}
+  e: {fileID: 444814613, guid: 95e49a7b5d1025a4d9a604deab54892d, type: 3}
   correct: 1
-  penjelasan: Bunyi memerlukan medium (padat, cair, atau gas) untuk merambat; getaran
-    molekul mediumlah yang menghantarkan energi bunyi.
+  penjelasan: {fileID: 21300000, guid: 23818b6056739264ebacfa6788870f55, type: 3}

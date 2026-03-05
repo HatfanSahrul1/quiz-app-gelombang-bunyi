@@ -12,13 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
   m_Name: 2p1
   m_EditorClassIdentifier: 
-  soal: 2.Manakah urutan medium yang benar dari yang memiliki cepat rambat bunyi
-    paling besar ke yang paling kecil?
-  a: Udara - Air - Besi
-  b: 'Air - Udara - Besi '
-  c: 'Besi - Udara - Air '
-  d: 'Besi - Air - Udara '
-  e: 'Udara - Besi - Air '
+  soal: {fileID: 369206346, guid: 9b751da20994ccd4eaa341db0ca0e7c1, type: 3}
+  a: {fileID: -1345611826, guid: 9b751da20994ccd4eaa341db0ca0e7c1, type: 3}
+  b: {fileID: 667843099, guid: 9b751da20994ccd4eaa341db0ca0e7c1, type: 3}
+  c: {fileID: 1228055709, guid: 9b751da20994ccd4eaa341db0ca0e7c1, type: 3}
+  d: {fileID: 1961052466, guid: 9b751da20994ccd4eaa341db0ca0e7c1, type: 3}
+  e: {fileID: -677887231, guid: 9b751da20994ccd4eaa341db0ca0e7c1, type: 3}
   correct: 3
-  penjelasan: Bunyi merambat paling cepat di zat padat (besi), diikuti zat cair (air),
-    dan paling lambat di gas (udara) karena kerapatan partikelnya.
+  penjelasan: {fileID: 21300000, guid: 28508d51b0c1d8543bb47073b53d95be, type: 3}

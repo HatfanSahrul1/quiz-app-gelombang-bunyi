@@ -12,15 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
   m_Name: 4p1
   m_EditorClassIdentifier: 
-  soal: "4. Seorang penyelam mendengar suara mesin kapal dari kejauhan saat di dalam
-    air laut (B = 2,2 \xD7 10<sup>9</sup> N/m\xB2, \u03C1 = 1.025 kg/m\xB3). Jika
-    dibandingkan dengan suara di udara(v=340m/s), hitunglah kecepatan bunyi di air
-    tersebut untuk membuktikan di mana bunyi merambat lebih cepat!"
-  a: A. 1.436 m/s
-  b: B. 1.634 m/s
-  c: C. 1.364 m/s
-  d: D. 1.463 m/s
-  e: E. 1.643 m/s
+  soal: {fileID: 250291721, guid: 2ac5634db6c5b0545b3fc3e2d33580b5, type: 3}
+  a: {fileID: 1634540069, guid: 2ac5634db6c5b0545b3fc3e2d33580b5, type: 3}
+  b: {fileID: -488990605, guid: 2ac5634db6c5b0545b3fc3e2d33580b5, type: 3}
+  c: {fileID: -1765633729, guid: 2ac5634db6c5b0545b3fc3e2d33580b5, type: 3}
+  d: {fileID: -207006386, guid: 2ac5634db6c5b0545b3fc3e2d33580b5, type: 3}
+  e: {fileID: -269363386, guid: 2ac5634db6c5b0545b3fc3e2d33580b5, type: 3}
   correct: 3
-  penjelasan: "v \\t= \u221A(B/\u03C1) \n\\t= \u221A(2,2\xD710<sup>9</sup>/1.025)
-    \\t\\t\u2248 1463 m/s"
+  penjelasan: {fileID: 21300000, guid: dd8bbbf7d59fbd64885f7c5ede18db01, type: 3}
