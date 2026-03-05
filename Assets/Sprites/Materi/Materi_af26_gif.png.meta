@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 70adc55f73d53f34bbdbcf85d1b3605f
+guid: bf621ace420aa2240a9b8aff97dcaf80
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: q4_0
+      name: Materi_af26_gif_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1567
-        width: 1880
-        height: 1185
+        y: 1425
+        width: 1718
+        height: 559
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 124345581f000304f90f52f0e93ad486
-      internalID: 250291721
+      spriteID: c5900a945d5e2a9439741a59688dc413
+      internalID: 1939992888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: q4_1
+      name: Materi_af26_gif_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1280
-        width: 1880
-        height: 225
+        y: 9
+        width: 1718
+        height: 1135
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07bba285b1702ef40b1425026b183b91
-      internalID: 1634540069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: q4_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 975
-        width: 1880
-        height: 225
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d89542a40da0b54418b668467aa6b774
-      internalID: -488990605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: q4_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 670
-        width: 1880
-        height: 225
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2723a95eb785844589a1f2a7ceb44b8
-      internalID: -1765633729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: q4_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 365
-        width: 1880
-        height: 225
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00ef8c4d78e8d244ba1ed136e7950d08
-      internalID: -207006386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: q4_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 60
-        width: 1880
-        height: 225
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a129c86c8c2986f46b73e52c257f0ead
-      internalID: -269363386
+      spriteID: 6ba86bbf06fced4418536de3cc26b03d
+      internalID: 608413143
       vertices: []
       indices: 
       edges: []
@@ -246,12 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      q4_0: 250291721
-      q4_1: 1634540069
-      q4_2: -488990605
-      q4_3: -1765633729
-      q4_4: -207006386
-      q4_5: -269363386
+      Materi_af26_gif_0: 1939992888
+      Materi_af26_gif_1: 608413143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

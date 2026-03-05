@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Content/Materi.unity
     guid: b9b3d80a0294da64e87da0909d8dce9e
+  - enabled: 1
+    path: Assets/Scenes/Content/Quiz.unity
+    guid: 0253f6db0063a2145a4d012b0d5d577c
   m_configObjects: {}
