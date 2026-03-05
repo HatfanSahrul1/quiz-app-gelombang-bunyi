@@ -7,18 +7,15 @@ public class QuizManager : MonoBehaviour
     [SerializeField] SoalLoader loader;
     [SerializeField] PertemuanSO[] pertemuan;
     [SerializeField] GameObject quiz, penjelasan;
+    [SerializeField] Animator checkAnim, wrongAnim;
     int pertemuan_id = 0, soal_id = 0;
 
-    void Start()
+    public void Init()
     {
-        Init();
-    }
-
-    void Init()
-    {
+        loader.GetTextFromButton();
+        loader.DisplayQuestion(pertemuan[pertemuan_id].soals[soal_id]);
         penjelasan.SetActive(false);
         quiz.SetActive(true);
-        loader.GetTextFromButton();
     }
 
     public void CheckAnswer(bool isTrue)
@@ -37,11 +34,19 @@ public class QuizManager : MonoBehaviour
 
     public void PlayCorrectAnim()
     {
-        
+        checkAnim.gameObject.SetActive(true);
+        checkAnim.Play("notif", 0, 0f);;
     }
 
     public void PlayWrongAnim()
     {
-        
+        wrongAnim.gameObject.SetActive(true);
+        wrongAnim.Play("notif", 0, 0f);;
+    }
+
+    public void ShowPenjelasan()
+    {
+        quiz.SetActive(false);
+        penjelasan.SetActive(true);
     }
 }

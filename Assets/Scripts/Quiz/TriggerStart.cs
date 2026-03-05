@@ -7,7 +7,7 @@ public class TriggerStart : MonoBehaviour
 {
     [SerializeField] UnityEvent startEvent;
 
-    public void StartQuiz()
+    public void StartEvent()
     {
         startEvent?.Invoke();
     }

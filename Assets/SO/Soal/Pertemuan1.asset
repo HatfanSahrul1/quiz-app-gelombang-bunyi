@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a973658aa47349b4598421864ca2fd18, type: 3}
+  m_Name: Pertemuan1
+  m_EditorClassIdentifier: 
+  soals:
+  - {fileID: 11400000, guid: e843c064d08dd4f4ba9923b6a25eed7d, type: 2}
+  - {fileID: 11400000, guid: c92898b79de9ce942bca00c72064d955, type: 2}
+  - {fileID: 11400000, guid: a6317b17af887e04db6bddf0af542cba, type: 2}
+  - {fileID: 11400000, guid: 3820f23fa6f29544b96c60899a299c9e, type: 2}
+  - {fileID: 11400000, guid: a83447c44911b8f49beeb1783f783835, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f190666c7e27224fa08bd6dc937488c, type: 3}
+  m_Name: 5p1
+  m_EditorClassIdentifier: 
+  soal: 5. Saat menonton karnaval sound horeg, dadamu terasa bergetar mengikuti dentuman
+    musik. Berdasarkan sifat gelombang bunyi, jelaskan mengapa getaran tersebut bisa
+    berpindah dari speaker ke tubuhmu melalui udara!
+  a: A. Partikel udara pembawa bunyi berpindah dari speaker dan masuk ke dalam pori-pori
+    kulit.
+  b: 'B. Bunyi merambat dalam bentuk gelombang elektromagnetik yang menggetarkan
+    atom di dalam tubuh. '
+  c: 'C. Speaker memancarkan partikel cahaya yang memberikan tekanan fisik langsung
+    pada permukaan dada. '
+  d: 'D. Gelombang bunyi merupakan gelombang longitudinal yang merambatkan energi
+    melalui rapatan dan renggangan partikel udara. '
+  e: E. Udara di sekitar speaker berhenti bergerak sehingga suara dapat melompat
+    langsung ke tubuh pendengar.
+  correct: 3
+  penjelasan: "Fenomena dada yang ikut \"berdegup\" saat mendengar Sound Horeg terjadi
+    karena prinsip-prinsip berikut:\r\n\u2022 Gelombang Longitudinal: Bunyi adalah
+    gelombang mekanik longitudinal yang merambat dengan cara menggetarkan partikel
+    medium (udara) dalam bentuk rapatan dan renggangan.\r\n\u2022 Perambatan Energi,
+    Bukan Materi: Penting untuk diingat bahwa partikel udara tidak berpindah dari
+    speaker ke tubuhmu (itu namanya angin). Yang berpindah adalah energinya. Partikel
+    udara hanya bergetar maju-mundur di tempatnya dan menabrak partikel di sebelahnya,
+    meneruskan energi tersebut sampai ke tubuhmu.\r\n\u2022 Tekanan Akustik: Karena
+    intensitas Sound Horeg sangat tinggi, energi mekanik yang dibawa gelombang tersebut
+    cukup besar untuk memberikan tekanan fisik yang nyata pada permukaan benda padat,
+    termasuk jaringan tubuh dan paru-paru manusia, sehingga kamu merasakannya sebagai
+    getaran fisik\r"
