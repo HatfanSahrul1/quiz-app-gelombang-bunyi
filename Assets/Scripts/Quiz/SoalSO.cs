@@ -12,10 +12,8 @@ public class SoalSO : ScriptableObject
         E
     }
 
-    [TextArea]
-    public string soal = "Lorem Ipsum", a, b, c, d, e;
+    public Sprite soal, a, b, c, d, e;
     public CorrectAnswer correct;
     
-    [TextArea]
-    public string penjelasan;
+    public Sprite penjelasan;
 }

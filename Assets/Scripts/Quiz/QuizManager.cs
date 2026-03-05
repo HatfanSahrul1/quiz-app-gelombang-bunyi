@@ -12,7 +12,6 @@ public class QuizManager : MonoBehaviour
 
     public void Init()
     {
-        loader.GetTextFromButton();
         loader.DisplayQuestion(pertemuan[pertemuan_id].soals[soal_id]);
         penjelasan.SetActive(false);
         quiz.SetActive(true);
