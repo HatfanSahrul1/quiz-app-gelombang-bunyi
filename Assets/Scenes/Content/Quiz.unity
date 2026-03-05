@@ -1899,6 +1899,21 @@ MonoBehaviour:
   penjelasan: {fileID: 402071141}
   checkAnim: {fileID: 1614647102}
   wrongAnim: {fileID: 121919814}
+  onEndQuiz:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1066225876}
+        m_TargetAssemblyTypeName: SceneMovement, Assembly-CSharp
+        m_MethodName: MoveToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Evaluasi
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1131650170
 GameObject:
   m_ObjectHideFlags: 0

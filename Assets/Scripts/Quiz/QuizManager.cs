@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class QuizManager : MonoBehaviour
 {
@@ -9,9 +10,11 @@ public class QuizManager : MonoBehaviour
     [SerializeField] GameObject quiz, penjelasan;
     [SerializeField] Animator checkAnim, wrongAnim;
     int pertemuan_id = 0, soal_id = 0;
+    [SerializeField] UnityEvent onEndQuiz;
 
     public void Init()
     {
+        pertemuan_id = PlayerPrefs.GetInt("Pertemuan");
         loader.DisplayQuestion(pertemuan[pertemuan_id].soals[soal_id]);
         penjelasan.SetActive(false);
         quiz.SetActive(true);
@@ -26,9 +29,15 @@ public class QuizManager : MonoBehaviour
 
     public void NextDisplay()
     {
-        penjelasan.SetActive(false);
-        loader.DisplayQuestion(pertemuan[pertemuan_id].soals[soal_id]);
-        quiz.SetActive(true);
+        if(soal_id < pertemuan[pertemuan_id].soals.Length){
+            penjelasan.SetActive(false);
+            loader.DisplayQuestion(pertemuan[pertemuan_id].soals[soal_id]);
+            quiz.SetActive(true);
+        }
+        else
+        {
+            onEndQuiz?.Invoke();
+        }
     }
 
     public void PlayCorrectAnim()
