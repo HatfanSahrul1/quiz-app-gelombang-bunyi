@@ -34,11 +34,31 @@ public class SoalLoader : MonoBehaviour
 
     void SetupButtonListeners()
     {
-        if(aButton) aButton.onClick.AddListener(() => Answer("A"));
-        if(bButton) bButton.onClick.AddListener(() => Answer("B"));
-        if(cButton) cButton.onClick.AddListener(() => Answer("C"));
-        if(dButton) dButton.onClick.AddListener(() => Answer("D"));
-        if(eButton) eButton.onClick.AddListener(() => Answer("E"));
+        if(aButton)
+        { 
+            aButton.onClick.AddListener(() => Answer("A"));
+            aButton.onClick.AddListener(() => CheckButton(aButton));
+        }
+        if(bButton)
+        { 
+            bButton.onClick.AddListener(() => Answer("B"));
+            bButton.onClick.AddListener(() => CheckButton(bButton));
+        }
+        if(cButton)
+        { 
+            cButton.onClick.AddListener(() => Answer("C"));
+            cButton.onClick.AddListener(() => CheckButton(cButton));
+        }
+        if(dButton)
+        { 
+            dButton.onClick.AddListener(() => Answer("D"));
+            dButton.onClick.AddListener(() => CheckButton(dButton));
+        }
+        if(eButton)
+        { 
+            eButton.onClick.AddListener(() => Answer("E"));
+            eButton.onClick.AddListener(() => CheckButton(eButton));
+        }
     }
 
     public void DisplayQuestion(SoalSO soal)
@@ -54,27 +74,42 @@ public class SoalLoader : MonoBehaviour
         if(aOption)
         {
             aOption.sprite = soal.a;
+            aOption.gameObject.SetActive(true);
             aOption.SetNativeSize();
         }
         if(bOption)
         {
             bOption.sprite = soal.b;
+            bOption.gameObject.SetActive(true);
             bOption.SetNativeSize();
         }
         if(cOption)
         {
             cOption.sprite = soal.c;
+            cOption.gameObject.SetActive(true);
             cOption.SetNativeSize();
         }
         if(dOption)
         {
             dOption.sprite = soal.d;
+            dOption.gameObject.SetActive(true);
             dOption.SetNativeSize();
         }
         if(eOption)
         {
             eOption.sprite = soal.e;
+            eOption.gameObject.SetActive(true);
             eOption.SetNativeSize();
+        }
+    }
+
+    public void CheckButton(Button btn)
+    {
+        Button[] buttons = {aButton, bButton, cButton, dButton, eButton};
+
+        foreach (Button item in buttons)
+        {
+            if(item != btn) item.gameObject.SetActive(false);
         }
     }
 
