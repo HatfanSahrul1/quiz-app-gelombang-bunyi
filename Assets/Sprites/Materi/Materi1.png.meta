@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Materi1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1584
+        width: 759
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d529fc95b8a2441abbb537a8bd2c52
+      internalID: -1853302542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Materi1_1
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1584
+        width: 760
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65875efce5e7239419d46685cc95c5e7
+      internalID: -1493763311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Materi1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 760
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad86c8056b7637849b788a431182c934
+      internalID: 147445656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Materi1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 760
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1518b6d54cff2ff4085d466d2985aa2c
+      internalID: -1940357933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Materi1_4
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 0
+        width: 760
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15ae2b16e03246468379b0085dc3397
+      internalID: 77591394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Materi1_5
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 794
+        width: 760
+        height: 762
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8567edf1543b7a4cba4d1ff18d5a139
+      internalID: 118600755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Materi1_0: -1853302542
+      Materi1_1: -1493763311
+      Materi1_2: 147445656
+      Materi1_3: -1940357933
+      Materi1_4: 77591394
+      Materi1_5: 118600755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
