@@ -8,7 +8,7 @@ public class PertemuanPicker : MonoBehaviour
     [SerializeField] UnityEvent onTriggered;
     public void SetPertemuan(int id)
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("Pertemuan");
         PlayerPrefs.SetInt("Pertemuan", id);
         onTriggered?.Invoke();
     }
