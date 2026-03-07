@@ -10,8 +10,18 @@ public class AudioController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isMuted = PlayerPrefs.GetInt("IsMute") == 1;
         // Find all AudioSources in the scene
         audioSources = new List<AudioSource>(FindObjectsOfType<AudioSource>());
+        SetAudio();
+    }
+
+    public void SetAudio()
+    {
+        foreach (var audioSource in audioSources)
+        {
+            audioSource.mute = isMuted;
+        }
     }
 
     public void ToggleAudio()
@@ -21,5 +31,7 @@ public class AudioController : MonoBehaviour
         {
             audioSource.mute = isMuted;
         }
+        PlayerPrefs.DeleteKey("IsMute");
+        PlayerPrefs.SetInt("IsMute", isMuted ? 1 : 0);
     }
 }
