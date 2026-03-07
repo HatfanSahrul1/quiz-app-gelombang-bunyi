@@ -8,7 +8,9 @@ public class MateriManager : MonoBehaviour
     [SerializeField] SceneMovement moveScene;
     [SerializeField] ObjectContainer objectContainer;
     [SerializeField] VideoPlayer videoPlayer;
-    int currentId = 0;
+    [SerializeField] GameObject nextButton, prevButton;
+    [SerializeField] MateriBatch[] batch;
+    int currentId = 0, currentBatch = 0;
     GameObject[] materi;
 
 
@@ -26,6 +28,7 @@ public class MateriManager : MonoBehaviour
             if(i != currentId) materi[i].SetActive(false);
         }
 
+        nextButton.SetActive(currentId != batch[currentBatch].End);
         materi[currentId].SetActive(true);
     }
 
@@ -77,6 +80,20 @@ public class MateriManager : MonoBehaviour
         ResetVideo(vp2);
     }
 
+    public void JumpToMateri(int i)
+    {
+        if(i >= materi.Length || i < 0) return;
+        currentId = i;
+        ShowMateri();
+    }
+
+    public void JumpToMateriBatch(int i)
+    {
+        if(i >= batch.Length || i < 0) return;
+        currentBatch = i;
+        JumpToMateri(batch[currentBatch].Start);
+    }
+
     public void NextMateri()
     {
         if (currentId < materi.Length - 1)
@@ -84,22 +101,33 @@ public class MateriManager : MonoBehaviour
             currentId++;
             ShowMateri();
         }
-        else
-        {
-            moveScene.MoveToScene("LKPD");
-        }
     }
 
     public void PrevMateri()
     {
-        if (currentId > 0)
+        if (currentId == batch[currentBatch].Start)
         {
-            currentId--;
+            currentId = 0;
             ShowMateri();
         }
         else
         {
-            moveScene.MoveToScene("Indikator");
+            if (currentId > 0)
+            {
+                currentId--;
+                ShowMateri();
+            }
+            else
+            {
+                moveScene.MoveToScene("MainMenu");
+            }
         }
     }
+}
+
+[System.Serializable]
+public class MateriBatch
+{
+    public string MateriName;
+    public int Start, End;
 }
