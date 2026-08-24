@@ -64,7 +64,7 @@ public class BackSoundManager : MonoBehaviour
     {
         if (audioSource != null)
         {
-            audioSource.mute = true;
+            audioSource.volume = 0;
         }
     }
 
@@ -72,7 +72,7 @@ public class BackSoundManager : MonoBehaviour
     {
         if (audioSource != null)
         {
-            audioSource.mute = false;
+            audioSource.volume = 1;
         }
     }
 }

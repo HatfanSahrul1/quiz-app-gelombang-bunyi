@@ -569,7 +569,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://docs.google.com/document/d/1XrOnwenauTgUlRHh1QYDOWBk-ARUZ05y/edit?usp=drive_link&ouid=113027977968144167765&rtpof=true&sd=true
+          m_StringArgument: https://drive.google.com/drive/folders/1Bax3fVA8aTGq705SKVVUTv_Ugc1hu56h?usp=drive_link
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &476595641
@@ -1684,7 +1684,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://docs.google.com/document/d/17UXZOqWWlSd7nyaaW1pVS7u-VhFL2gzi/edit?usp=drive_link&ouid=113027977968144167765&rtpof=true&sd=true
+          m_StringArgument: https://drive.google.com/drive/folders/1MYEygkzSLnNyLVxi5s4oS-Qx_cm6534H?usp=drive_link
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1308646959
@@ -2147,7 +2147,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://docs.google.com/document/d/11v9xhOS6s8nEy9HOZB_vd93cl_1GZxBc/edit?usp=drive_link&ouid=113027977968144167765&rtpof=true&sd=true
+          m_StringArgument: https://drive.google.com/drive/folders/1JDjVHRkSvqnxQfuH_88mcH2R_XCTe_Uv?usp=drive_link
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1660057539 &9223372036854775807
